@@ -1,0 +1,26 @@
+.MonProfil{
+    display: flex;
+}
+
+.MonProfil div{
+    margin: 20px;
+}
+
+.photoProfil img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.texteProfil{
+    font-size: 1.2em;
+}
+
+.monCV{
+    text-decoration: none;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}

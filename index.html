@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Daniel Fanion - Portfolio</title>
+
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/fonts/font.css" />
+    <link rel="stylesheet" href="./css/skills.css" />
+    <link rel="stylesheet" href="./css/project.css" />
+    <link rel="stylesheet" href="./css/profil.css" />
+    <link rel="stylesheet" href="./css/accueil.css" />
+
+	<script src="https://kit.fontawesome.com/a8b95a522f.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+	<!-- inclusion du fichier js compilé par babel dans le dossier build -->
+	<script src="build/main.bundle.js" defer></script>
+</head>
+<body>
+	<!-- Header -->
+	<header>
+        <a href="./index.html"><img src="./images/logo.png" alt="logo" width=50px></a>
+        <nav>
+            <a href="#Profil">Profil</a>
+            <a href="#Competence">Compétences</a>
+            <a href="#Portfolio">PortFolio</a>
+        </nav>
+    </header>
+
+	<!-- Accueil -->
+    <section id="Profil" class="accueil">
+        <div class="full-background">
+            <div class="pageAccueil">
+                <div class="texteAccueil accueilLeft">
+                    <h2>Bonjour, je suis</h2>
+                    <h1>DANIEL FANION</h1>
+                    <h2>Titulaire d'un BUT Informatique (BAC+3)</h2>
+                    <p>Actuellement en alternance chez l'iMSA, je suis actuellement à la <span>recherche d'une école</span> dans l'objectif de réaliser un bac+5 </p>
+                    <div class="lienAccueil">
+                        <a href="https://www.linkedin.com/in/danielfanion/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="./res/DanielFanion.pdf"><i class="fa-solid fa-circle-user"></i></a>
+                        <a href="" class="boutonTexte"></a>
+                    </div>
+                    <div class="texteProfil hide">
+                    </div>
+                </div>
+                <div class="photoAccueil accueilRight">
+                    <div class="imgAccueil">
+                        <img src="./images/photoAccueil.jpg" alt="Ma photo"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- Compétence -->
+    <section id="Competence">
+        <div class="Competence" id="Competence">
+            <h1>Compétences</h1>
+            <div class="mesCompetences">
+                <div class="Case">
+                    <i class="fa-brands fa-envira"></i>
+                    <h3>Spring</h3>
+                </div>
+                <div class="Case">
+                    <i class="fa-solid fa-terminal"></i>
+                    <h3>Shell</h3>
+                </div>
+                <div class="Case">
+                    <i class="fa-solid fa-terminal"></i>
+                    <h3>Powershell</h3>
+                </div>
+                <div class="Case">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="Case">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React</h3>
+                </div>
+	    		<div class="Case">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML 5</h3>
+                </div>
+                <div class="Case">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS 3</h3>
+                </div>
+	    		<div class="Case">
+                    <i class="fa-brands fa-square-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="Case">
+                    <i class="fa-brands fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="Case">
+                    <iconify-icon icon="akar-icons:postgresql-fill"></iconify-icon>
+                    <h3>Postgresql</h3>
+                </div>
+                <div class="Case">
+                    <iconify-icon icon="mdi:git"></iconify-icon>
+                    <h3>GIT</h3>
+                </div>
+                <div class="Case">
+                    <i class="fa-brands fa-linux"></i>
+                    <h3>Unix</h3>
+                </div>
+                <div class="Case">
+                    <i class="fa-brands fa-docker"></i>
+                    <h3>Docker</h3>
+                </div>
+            </div>
+            <h1>En cours d'apprentissage / Petites notions</h1>
+            <div class="mesCompetences">
+	    		<div class="Case">
+                    <i class="fa-brands fa-jenkins"></i>
+                    <h3>Jenkins</h3>
+                </div>
+            </div>
+        </div>
+	</section>
+
+    <!-- Projets -->
+    <section id="Portfolio">
+        <h1>Projets</h1>
+        <div class="mesBoutons">
+            <button class="all button-81" role="button">Tous</button>
+            <button class="web button-81" role="button">Web</button>
+            <button class="app button-81" role="button">Appli</button>
+        </div>
+        <article class="projectList">
+            <section class="results"></section>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="monFooter">
+            <div class="footerLeft">
+                <h3>Contact</h3>
+                <p>06.72.62.25.61</p>
+                <p>daniel.fanion@gmail.com</p>
+            </div>
+            
+            <div class="footerMid">
+                <a href="https://www.linkedin.com/in/daniel-fanion-581323209/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="./res/DanielFanion.pdf"><i class="fa-solid fa-circle-user"></i></a>                
+            </div>
+
+            <div class="footerRight">
+                <h3>Navigation</h3>
+                <a href="#top">Accueil</a>
+                <a href="#Competence">Compétences</a>
+                <a href="#Portfolio">Projets</a>
+            </div>
+        </div>
+        <div class="Droits">© Daniel Fanion - Tous droits réservés </div>
+    </footer>
+</body>
+</html>

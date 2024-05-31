@@ -1,0 +1,116 @@
+.pageAccueil{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0 4vw;
+}
+
+@media screen and (max-width : 800px){
+    .pageAccueil{
+        flex-direction: column;
+        height: 100%;
+    }
+    .imgAccueil img{
+        margin-top: -20%;
+    }
+    .texteAccueil h2:first-child{
+        margin-top: 50px;
+    }
+}
+
+.accueilLeft{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.accueilRight{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background-color: blueviolet; */
+}
+
+.texteAccueil h1{
+    font-size: 6rem;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: var(--color-blue); 
+    color: var(--color-darkgray);
+}
+
+.texteAccueil h2:first-child{
+    margin-top: 20%;
+}
+
+.texteAccueil h2{
+    margin: 0px;
+}
+
+.lienAccueil{
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texteAccueil p{
+    margin-top: 0.5vw;
+    margin-bottom: 3vw;
+}
+
+.accueilRight .imgAccueil{
+    margin: 0 auto;
+    margin-top: 17%;
+    width: 60%;
+}
+
+.imgAccueil img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.accueilLeft a, .boutonTexte{
+    text-decoration : none;
+    background-color: var(--color-blue);
+    padding: 0px;
+    border-radius: 5px;
+}
+
+span{
+    font-family: 'Source Sans Pro   300', sans-serif;
+}
+
+.lienAccueil a{
+    align-items: center;
+    color : var(--color-white);
+    font-family: 'Source Sans Pro600', sans-serif;
+    text-decoration: none;
+    background-color: var(--color-blue);
+    border-radius: 10px;
+    margin-right: 15px;
+    padding: 15px;
+}
+
+.lienAccueil a>i{
+    font-size: 3rem;
+    align-items: center;
+}
+
+.lienAccueil a:hover{
+    color: var(--color-darkgray);
+    background-color: var(--color-white);
+    transition: 0.5s;
+} 
+
+.enSavoirPlus{
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 1px;
+}
+
+li{
+    list-style-type: circle;
+}
